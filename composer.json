@@ -1,0 +1,17 @@
+{
+    "name": "arondi/ticket-app-twig",
+    "autoload": {
+        "psr-4": {
+            "Arondi\\TicketAppTwig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "arondi-12",
+            "email": "davieariwi@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.21"
+    }
+}
