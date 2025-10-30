@@ -7,11 +7,11 @@ ticket-app-twig/
 │   └── Services/
 │       └── (optional backend logic)
 ├── templates/
-│   ├── base.html.twig        ← your global layout (like App.jsx)
+│   ├── base.html.twig        
 │   ├── pages/
-│   │   └── dashboard.html.twig  ← 🟢 your Dashboard page (this file)
+│   │   └── dashboard.html.twig  
 │   └── components/
-│       ├── header.html.twig     ← optional reusable component
+│       ├── header.html.twig     
 │       ├── footer.html.twig
 │       └── stat-card.html.twig
 ├── public/
@@ -22,12 +22,12 @@ ticket-app-twig/
 
 
 ticket-app-twig/
-├── public/                     # for CSS, JS, images (like React public/)
+├── public/                     
 │   ├── css/
 │   ├── js/
 │   └── images/
 │
-├── src/                        # PHP business logic
+├── src/                        
 │   ├── Controllers/
 │   │   ├── DashboardController.php
 │   │   ├── TicketsController.php
@@ -36,22 +36,22 @@ ticket-app-twig/
 │       ├── AuthService.php
 │       └── TicketService.php
 │
-├── templates/                  # Twig templates (HTML)
-│   ├── base.html.twig          # main layout (like App.jsx)
-│   ├── components/             # reusable UI pieces
+├── templates/                  
+│   ├── base.html.twig          
+│   ├── components/             
 │   │   ├── header.html.twig
 │   │   ├── footer.html.twig
 │   │   ├── ticket-card.html.twig
 │   │   └── toast.html.twig
-│   ├── pages/                  # page-level templates (like React routes)
+│   ├── pages/                  
 │   │   ├── login.html.twig
 │   │   ├── signup.html.twig
 │   │   ├── dashboard.html.twig
 │   │   ├── tickets.html.twig
 │   │   └── landing.html.twig
-│   └── partials/               # optional sub-layouts or modals
+│   └── partials/               
 │       └── modal.html.twig
 │
-├── vendor/                     # (composer)
+├── vendor/                     
 ├── composer.json
-└── index.php                   # entry point / router
+└── index.php                   
